@@ -1,13 +1,13 @@
 # Smart Automatic Tire Inflation & Deflation System 🚗💨
 
-## Overview
+## 📌 Overview
 This project presents a smart system that automates tire inflation and deflation to improve driver safety and convenience. The system allows users to monitor and control tire pressure in real time without relying on manual pumps or gas stations.
 
 The prototype was developed as part of a senior design project at King Fahd University of Petroleum & Minerals and focuses on making tire maintenance easier, faster, and more reliable without requiring any physical effort from the user.
 
 ---
 
-## What the System Does
+## 🚀 What the System Does
 - Automatically inflates and deflates tires to the desired pressure  
 - No physical effort is required, everything is done through simple clicks in the mobile app  
 - Monitors tire pressure and temperature in real time  
@@ -17,7 +17,7 @@ The prototype was developed as part of a senior design project at King Fahd Univ
 
 ---
 
-## System Testing
+## 🧪 System Testing
 The system was tested using a setup connected to four tires to simulate real usage.
 
 During testing, the system was able to:
@@ -30,7 +30,7 @@ These tests confirmed that the system works reliably and performs well under pra
 
 ---
 
-## Project Demonstration
+## 🏫 Project Demonstration
 The project was presented at the Senior Projects Expo at King Fahd University of Petroleum & Minerals.
 
 The demonstration included:
@@ -43,7 +43,7 @@ The project received strong feedback for its practical application and overall s
 
 ---
 
-## Hardware Components
+## 🛠️ Hardware Components
 - Arduino Mega as the main controller  
 - 12V air compressor  
 - Solenoid valves for airflow control  
@@ -54,7 +54,7 @@ The project received strong feedback for its practical application and overall s
 
 ---
 
-## Software and Control
+## 💻 Software and Control
 The system uses a control algorithm that continuously compares the current tire pressure with the target value set by the user.
 
 Based on this comparison, it decides whether to inflate, deflate, or stop. The process runs automatically until the correct pressure is reached.
@@ -68,7 +68,7 @@ The entire process can be completed with a few taps on the app, without any manu
 
 ---
 
-## How It Works
+## ⚙️ How It Works
 1. The user sets the desired pressure using the mobile app  
 2. Sensors measure current pressure and temperature  
 3. The controller processes the data  
@@ -78,7 +78,7 @@ The entire process can be completed with a few taps on the app, without any manu
 
 ---
 
-## Safety Features
+## 🔒 Safety Features
 - Automatic shutoff if pressure exceeds safe limits  
 - Emergency stop button  
 - Protection against electrical faults  
@@ -86,7 +86,7 @@ The entire process can be completed with a few taps on the app, without any manu
 
 ---
 
-## Performance
+## 📊 Performance
 - Adjusts tire pressure within minutes  
 - Accurate pressure control  
 - Real-time monitoring with minimal delay  
@@ -94,7 +94,7 @@ The entire process can be completed with a few taps on the app, without any manu
 
 ---
 
-## Applications
+## 🌍 Applications
 This system can be useful for:
 - Daily drivers  
 - Off-road users  
@@ -103,7 +103,7 @@ This system can be useful for:
 
 ---
 
-## Future Improvements
+## 🔮 Future Improvements
 - Smarter analysis of tire data over time  
 - Integration with vehicle systems  
 - Smaller and more compact design  
@@ -111,7 +111,7 @@ This system can be useful for:
 
 ---
 
-## Team
+## 👨‍💻 Team
 - Hussain Alhaddad – Electrical Engineering  
 - Fahad Alfaris – Electrical Engineering  
 - Hadi Almayyad – Mechanical Engineering  
@@ -119,5 +119,5 @@ This system can be useful for:
 
 ---
 
-## Note
+## 📝 Note
 This project was developed as part of a senior design course and demonstrates a practical solution for improving tire maintenance using automation and smart control.
