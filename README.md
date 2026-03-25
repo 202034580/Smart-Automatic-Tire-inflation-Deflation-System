@@ -46,14 +46,29 @@ The demonstration included:
 ---
 
 ## 🛠️ Hardware Components
-- Microcontroller for system control  
-- 12 V air compressor  
-- Solenoid valves for airflow control  
-- Pressure sensors  
-- Temperature sensors  
-- Bluetooth Low Energy module  
-- Power system with protection components  
-- Portable cart structure  
+The system is built using a combination of electrical, mechanical, and control components that work together to manage airflow and monitor tire conditions.
+
+### Main Components
+- Arduino Mega 2560 as the main controller  
+- Tire Pressure Monitoring System sensors for pressure readings  
+- Bluetooth module HM-10 for wireless communication  
+- DC-DC converter for voltage regulation  
+- 5 V and 12 V battery supply  
+
+### Air System Components
+- 12 V air compressor for inflation  
+- Aluminum air manifold for distributing airflow  
+- Solenoid valves (2/2) to control air direction  
+- Check valve to prevent backflow  
+- Air hoses for air transfer  
+- Quick connect couplers for easy attachment to tires  
+- Hose clamps to secure connections  
+
+### Supporting Components
+- Breadboard for circuit prototyping  
+- Electrical wires for connections  
+
+All components are integrated into a portable system that allows controlled inflation and deflation of multiple tires while ensuring stable operation and reliable performance.
 
 ---
 
