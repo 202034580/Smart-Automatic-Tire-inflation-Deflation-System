@@ -3,6 +3,8 @@
 ## 📌 Overview
 This project presents the design and development of an Automatic Tire Inflation and Deflation System that helps drivers maintain correct tire pressure in a safe and efficient way.
 
+This work was completed as a graduation project at King Fahd University of Petroleum & Minerals.
+
 The system is implemented as a portable prototype and uses a 12 V air compressor, solenoid valves, and pressure and temperature sensors controlled by a microcontroller. It connects wirelessly to a mobile application, allowing users to set target pressures and monitor real-time readings.
 
 The system also includes a leak detection feature that identifies sudden pressure drops and alerts the user.
@@ -122,4 +124,4 @@ All operations are performed through the application without manual interaction 
 ---
 
 ## 📝 Note
-This project was developed as part of a senior design program and demonstrates a practical approach to automating tire pressure management using sensing, control, and wireless communication.
+This project was developed as a graduation project at King Fahd University of Petroleum & Minerals and demonstrates a practical approach to automating tire pressure management using sensing, control, and wireless communication.
