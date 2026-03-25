@@ -1,32 +1,34 @@
 # Smart Automatic Tire Inflation & Deflation System 🚗💨
 
 ## 📌 Overview
-This project presents a smart system that automates tire inflation and deflation to improve driver safety and convenience. The system allows users to monitor and control tire pressure in real time without relying on manual pumps or gas stations.
+This project presents the design and development of an Automatic Tire Inflation and Deflation System that helps drivers maintain correct tire pressure in a safe and efficient way.
 
-The prototype was developed as part of a senior design project at King Fahd University of Petroleum & Minerals and focuses on making tire maintenance easier, faster, and more reliable without requiring any physical effort from the user.
+The system is implemented as a portable prototype and uses a 12 V air compressor, solenoid valves, and pressure and temperature sensors controlled by a microcontroller. It connects wirelessly to a mobile application, allowing users to set target pressures and monitor real-time readings.
+
+The system also includes a leak detection feature that identifies sudden pressure drops and alerts the user.
 
 ---
 
 ## 🚀 What the System Does
-- Automatically inflates and deflates tires to the desired pressure  
-- No physical effort is required, everything is done through simple clicks in the mobile app  
+- Automatically inflates and deflates each tire to a target pressure  
+- No physical effort is required, all operations are controlled through the mobile application  
 - Monitors tire pressure and temperature in real time  
-- Detects air leaks and notifies the user  
-- Allows full control through a mobile application  
-- Improves safety by maintaining correct tire pressure at all times  
+- Detects sudden pressure drops and alerts the user  
+- Provides continuous tire condition monitoring  
+- Improves safety by maintaining proper tire pressure  
 
 ---
 
 ## 🧪 System Testing
-The system was tested using a setup connected to four tires to simulate real usage.
+The system was tested using a setup connected to four tires as part of the prototype validation.
 
-During testing, the system was able to:
-- Adjust tire pressure by up to 15 PSI within a few minutes  
-- Maintain high accuracy in pressure readings  
-- Provide continuous real-time updates  
-- Detect abnormal pressure drops and trigger alerts  
+During testing, the system successfully:
+- Adjusted tire pressure within the required range  
+- Maintained pressure accuracy within ±1 PSI  
+- Provided real-time sensor readings  
+- Detected abnormal pressure drops for leak detection  
 
-These tests confirmed that the system works reliably and performs well under practical conditions.
+The results demonstrated that the system meets its functional requirements and operates reliably.
 
 ---
 
@@ -34,80 +36,80 @@ These tests confirmed that the system works reliably and performs well under pra
 The project was presented at the Senior Projects Expo at King Fahd University of Petroleum & Minerals.
 
 The demonstration included:
-- Live operation of the system  
-- Real-time monitoring using the mobile application  
+- Live operation of the prototype system  
+- Real-time pressure monitoring through the mobile application  
 - Automatic inflation and deflation of four tires  
-- Explanation of the system design and functionality  
-
-The project received strong feedback for its practical application and overall system integration.
+- Presentation of system design and functionality  
 
 ---
 
 ## 🛠️ Hardware Components
-- Arduino Mega as the main controller  
-- 12V air compressor  
+- Microcontroller for system control  
+- 12 V air compressor  
 - Solenoid valves for airflow control  
-- Pressure and temperature sensors  
-- Bluetooth module for communication  
+- Pressure sensors  
+- Temperature sensors  
+- Bluetooth Low Energy module  
 - Power system with protection components  
-- Portable frame to hold the system  
+- Portable cart structure  
 
 ---
 
 ## 💻 Software and Control
-The system uses a control algorithm that continuously compares the current tire pressure with the target value set by the user.
+The system uses a feedback control approach. Sensor readings are continuously compared with the target pressure set by the user.
 
-Based on this comparison, it decides whether to inflate, deflate, or stop. The process runs automatically until the correct pressure is reached.
+Based on this comparison:
+- The compressor is activated for inflation  
+- Valves are used for deflation  
+- The system stops automatically once the target pressure is reached  
 
-The mobile application allows the user to:
-- Set target pressure for each tire  
-- View live sensor data  
-- Receive alerts if any issue occurs  
+The mobile application allows users to:
+- Set target pressure values  
+- Monitor real-time data  
+- Receive alerts  
 
-The entire process can be completed with a few taps on the app, without any manual work on the tires.
+All operations are performed through the application without manual interaction with the tires.
 
 ---
 
 ## ⚙️ How It Works
-1. The user sets the desired pressure using the mobile app  
-2. Sensors measure current pressure and temperature  
-3. The controller processes the data  
-4. The system inflates or deflates as needed  
-5. The system stops once the target pressure is reached  
-6. Alerts are sent if a leak or issue is detected  
+1. The user sets the desired pressure using the mobile application  
+2. Sensors measure pressure and temperature  
+3. The controller processes the readings  
+4. The system inflates or deflates as required  
+5. The system stops automatically at the target pressure  
+6. Alerts are generated if abnormal pressure drops are detected  
 
 ---
 
 ## 🔒 Safety Features
 - Automatic shutoff if pressure exceeds safe limits  
-- Emergency stop button  
-- Protection against electrical faults  
-- System monitoring to prevent unsafe operation  
+- Electrical protection using fuses  
+- Emergency stop functionality  
+- Monitoring of system faults  
 
 ---
 
 ## 📊 Performance
-- Adjusts tire pressure within minutes  
-- Accurate pressure control  
-- Real-time monitoring with minimal delay  
-- Works with standard vehicle tires  
+- Pressure adjustment within a few minutes  
+- Accuracy of approximately ±1 PSI  
+- Real-time updates from sensors  
+- Operation based on a 12 V power system  
 
 ---
 
 ## 🌍 Applications
-This system can be useful for:
-- Daily drivers  
-- Off-road users  
-- People who want a more convenient way to maintain tire pressure  
-- Workshops looking to offer advanced services  
+- Everyday drivers  
+- Off-road driving scenarios  
+- Situations where manual tire inflation is difficult  
+- Automotive workshops  
 
 ---
 
 ## 🔮 Future Improvements
-- Smarter analysis of tire data over time  
+- Predictive leak detection using data analysis  
 - Integration with vehicle systems  
-- Smaller and more compact design  
-- Additional automation features  
+- Enhanced mobile application features  
 
 ---
 
@@ -120,4 +122,4 @@ This system can be useful for:
 ---
 
 ## 📝 Note
-This project was developed as part of a senior design course and demonstrates a practical solution for improving tire maintenance using automation and smart control.
+This project was developed as part of a senior design program and demonstrates a practical approach to automating tire pressure management using sensing, control, and wireless communication.
